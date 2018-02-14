@@ -30,17 +30,14 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              Avenir, "Avenir Next", Trebuchet, Verdana,
+$heading:                 Poppins, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   Georgia, Times, serif !default;
-$monospace:               Monaco, Menlo, Consolas,
-                          monospace !default;
+$body:                   "Fira Sans", Georgia, Times, serif !default;
 
-$font-family--base:       $sans-serif !default;
-$font-family--heading:    $sans-serif !default;
-$font-family--reading:    $serif !default;
-$font-family--ui:         $sans-serif !default;
-$font-family--code:       $monospace !default;
+$font-family--base:       $body !default;
+$font-family--heading:    $heading !default;
+$font-family--reading:    $body !default;
+$font-family--ui:         $body !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
@@ -61,7 +58,7 @@ $h5--desktop:             .75rem !default;
 $h6--desktop:             .75rem !default;
 
 // Text color
-$text-color:              $dark-gray !default;
+$text-color:              $darkest-gray !default;
 
 // Text sizes
 $font-size--mobile:       14px !default;
@@ -87,7 +84,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     45em !default;
+$max-container-width:     1200px !default;
 
 
 // Spaces
@@ -112,8 +109,7 @@ $active-link-color:       darken($primary-color, 25%) !default;
 
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .45rem 1rem .35rem !default;
-$button-padding--sm:      .1rem .6rem 0 !default;
+$button-padding:          .65rem 1.3rem .55rem !default;
 
 
 // Forms
@@ -125,8 +121,8 @@ $form-padding:            .45rem .8rem .35rem !default;
 // -------------------------------------------------------------------
 $border-color:            $light-gray !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
-$border-width:            1px !default;
+$border-radius:           5px !default;
+$border-width:            2px !default;
 
 
 // Animations
