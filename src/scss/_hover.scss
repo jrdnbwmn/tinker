@@ -1,0 +1,13 @@
+.hover {
+    cursor: pointer;
+}
+
+.hover:hover {
+    div {
+        background-color: #000;
+    }
+    
+    p {
+        display: block;
+    }
+}
