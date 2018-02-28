@@ -32,7 +32,7 @@ $baseline:                .4rem !default;
 // Font families
 $heading:                 Poppins, Avenir, "Avenir Next", Trebuchet,
                           Verdana, sans-serif !default;
-$body:                    "Fira Sans", Trebuchet, sans-serif !default;
+$body:                    Lato, Trebuchet, sans-serif !default;
 
 $font-family--base:       $body !default;
 $font-family--heading:    $heading !default;
@@ -67,7 +67,7 @@ $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
 // Weights
-$font-weight--base:       400 !default;
+$font-weight--base:       300 !default;
 $font-weight--heading:    700 !default;
 
 // Line heights
