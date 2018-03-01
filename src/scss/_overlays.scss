@@ -11,7 +11,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(49, 54, 60, 0.85);
     color: #fff;
     visibility: hidden;
     opacity: 0;
@@ -20,6 +19,14 @@
     justify-content: center;
     transition: opacity .2s, visibility .2s;
 }
+
+.overlay--red       { background: rgba(226,75,10, 0.85); }
+.overlay--blue      { background: rgba(75,183,209, 0.85); }
+.overlay--yellow    { background: rgba(250,216,8, 0.85); }
+.overlay--purple    { background: rgba(130,108,137, 0.85); }
+.overlay--green     { background: rgba(62,195,114, 0.85); }
+.overlay--orange    { background: rgba(248,117,39, 0.85); }
+.overlay--turquoise { background: rgba(60,218,167, 0.85); }
 
 .overlay-wrap:hover .overlay {
     visibility: visible;

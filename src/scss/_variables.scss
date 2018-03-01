@@ -12,9 +12,13 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Hues
-$blue:                    #428bca !default;
-$green:                   #6fbb57 !default;
-$orange:                  #f0ad4e !default;
+$red:                     #E24B0A !default; // 226,75,10
+$blue:                    #4BB7D1 !default; // 75,183,209
+$yellow:                  #FAD808 !default; // 250,216,8
+$purple:                  #826c89 !default; // 130,108,137
+$green:                   #3EC372 !default; // 62,195,114
+$orange:                  #f87527 !default; // 248,117,39
+$turquoise:               #3CDAA7 !default; // 60,218,167
 
 // Color scheme
 $primary-color:           $blue !default;
@@ -42,7 +46,7 @@ $font-family--ui:         $body !default;
 // Type scale
 // Good tool: http://type-scale.com/
 $h1:                      3.375rem !default;
-$h2:                      2.25rem !default;
+$h2:                      2rem !default;
 $h3:                      1.5rem !default;
 $h4:                      1rem !default;
 $h5:                      .667rem !default;
@@ -85,6 +89,7 @@ $breakpoint--lg:          60em !default;
 
 // Max container width
 $max-container-width:     1200px !default;
+$max-sm-container-width:  900px !default;
 
 
 // Spaces
@@ -95,7 +100,7 @@ $space-3:                 $baseline*8 !default;
 $space-4:                 $baseline*11 !default;
 
 // Specific margins
-$p-mb:                    $space-2 !default;
+$p-mb:                    $space-1 !default;
 $heading-mb:              $p-mb !default;
 
 
