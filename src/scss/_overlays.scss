@@ -1,4 +1,4 @@
-// Hover
+// Overlays
 // -------------------------------------------------------------------
 .overlay-wrap {
     position: relative;
@@ -20,13 +20,13 @@
     transition: opacity .2s, visibility .2s;
 }
 
-.overlay--red       { background: rgba(226,75,10, 0.85); }
-.overlay--blue      { background: rgba(75,183,209, 0.85); }
-.overlay--yellow    { background: rgba(250,216,8, 0.85); }
-.overlay--purple    { background: rgba(130,108,137, 0.85); }
-.overlay--green     { background: rgba(62,195,114, 0.85); }
-.overlay--orange    { background: rgba(248,117,39, 0.85); }
-.overlay--turquoise { background: rgba(60,218,167, 0.85); }
+.overlay--red        { background: rgba(226,75,10, 0.9); }
+.overlay--blue       { background: rgba(75,183,209, 0.9); }
+.overlay--yellow     { background: rgba(250,216,8, 0.9); }
+.overlay--purple     { background: rgba(130,108,137, 0.9); }
+.overlay--green      { background: rgba(62,195,114, 0.9); }
+.overlay--orange     { background: rgba(248,117,39, 0.9); }
+.overlay--turquoise  { background: rgba(60,218,167, 0.9); }
 
 .overlay-wrap:hover .overlay {
     visibility: visible;
