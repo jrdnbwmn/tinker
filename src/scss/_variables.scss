@@ -21,8 +21,8 @@ $orange:                  #f87527 !default; // 248,117,39
 $turquoise:               #3CDAA7 !default; // 60,218,167
 
 // Color scheme
-$primary-color:           $blue !default;
-$secondary-color:         $green !default;
+$primary-color:           $turquoise !default;
+$secondary-color:         $yellow !default;
 $tertiary-color:          $orange !default;
 
 
@@ -46,16 +46,16 @@ $font-family--ui:         $body !default;
 // Type scale
 // Good tool: http://type-scale.com/
 $h1:                      3.375rem !default;
-$h2:                      2rem !default;
-$h3:                      1.5rem !default;
+$h2:                      1.8rem !default;
+$h3:                      1.3rem !default;
 $h4:                      1rem !default;
 $h5:                      .667rem !default;
 $h6:                      .667rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
-$responsive-type:         false !default;
+$responsive-type:         true !default;
 $h1--desktop:             3.375rem !default;
-$h2--desktop:             2.25rem !default;
+$h2--desktop:             2rem !default;
 $h3--desktop:             1.5rem !default;
 $h4--desktop:             1rem !default;
 $h5--desktop:             .667rem !default;
