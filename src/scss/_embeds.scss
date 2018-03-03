@@ -3,7 +3,10 @@
 // Make stuff responsive
 img, canvas, iframe, video, svg { max-width: 100%; }
 
-.logo { max-width: 433px; }
+.logo {
+    max-width: 433px;
+    width: 100%;
+}
 
 .icon { height: 35px; }
 
